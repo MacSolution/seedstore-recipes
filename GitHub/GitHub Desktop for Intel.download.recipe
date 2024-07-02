@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of GitHub Desktop.</string>
 	<key>Identifier</key>
-	<string>com.seedstore.whydah.download.GitHubDesktop</string>
+	<string>com.seedstore.whydah.download.GitHubDesktopIntel</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
