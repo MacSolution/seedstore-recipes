@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of GitHub Desktop and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.seedstore.whydah.munki.GitHubDesktop</string>
+	<string>com.seedstore.whydah.munki.GitHubDesktopIntel</string>
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
@@ -69,7 +69,7 @@ exit 0
 	<key>MinimumVersion</key>
 	<string>1.0.2</string>
 	<key>ParentRecipe</key>
-	<string>com.seedstore.whydah.download.GitHubDesktop</string>
+	<string>com.seedstore.whydah.download.GitHubDesktopIntel</string>
 	<key>Process</key>
 	<array>
 		<dict>
