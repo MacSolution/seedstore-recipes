@@ -2,28 +2,28 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Comment</key>
+	<string>Created with Recipe Robot v2.3.1 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
 	<string>Downloads the latest version of GitHub Desktop.</string>
 	<key>Identifier</key>
-	<string>com.seedstore.whydah.download.GitHubDesktopSilicon</string>
+	<string>com.seedstore.whydah.download.GitHubDesktop</string>
 	<key>Input</key>
 	<dict>
-		<key>DOWNLOAD_URL</key>
-		<string>https://central.github.com/deployments/desktop/desktop/latest/darwin-arm64</string>
 		<key>NAME</key>
-		<string>GitHub Desktop for Apple Silicon</string>
+		<string>GitHub Desktop</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>1.0.2</string>
+	<string>2.3</string>
 	<key>Process</key>
 	<array>
 		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>filename</key>
-				<string>GitHubDesktop.zip</string>
+				<string>%NAME%.zip</string>
 				<key>url</key>
-				<string>%DOWNLOAD_URL%</string>
+				<string>https://central.github.com/deployments/desktop/desktop/latest/darwin</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
@@ -38,7 +38,7 @@
 				<key>archive_path</key>
 				<string>%pathname%</string>
 				<key>destination_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%/Applications</string>
+				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
 				<key>purge_destination</key>
 				<true/>
 			</dict>
@@ -49,9 +49,9 @@
 			<key>Arguments</key>
 			<dict>
 				<key>input_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%/Applications/GitHub Desktop.app</string>
+				<string>%RECIPE_CACHE_DIR%/%NAME%/GitHub Desktop.app</string>
 				<key>requirement</key>
-				<string>(identifier "com.github.GitHub" or identifier "com.github.GHAskPass") and anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
+				<string>identifier "com.github.GitHubClient" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = VEKTX9H2N7</string>
 			</dict>
 			<key>Processor</key>
 			<string>CodeSignatureVerifier</string>
@@ -60,7 +60,9 @@
 			<key>Arguments</key>
 			<dict>
 				<key>input_plist_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%/Applications/GitHub Desktop.app/Contents/Info.plist</string>
+				<string>%RECIPE_CACHE_DIR%/%NAME%/GitHub Desktop.app/Contents/Info.plist</string>
+				<key>plist_version_key</key>
+				<string>CFBundleShortVersionString</string>
 			</dict>
 			<key>Processor</key>
 			<string>Versioner</string>
