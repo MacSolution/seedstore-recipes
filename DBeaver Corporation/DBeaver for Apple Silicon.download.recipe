@@ -13,7 +13,7 @@
 		<key>APP_FILENAME</key>
 		<string>DBeaver</string>
 		<key>NAME</key>
-		<string>DBeaver Community</string>
+		<string>DBeaver Community for Apple Silicon</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>2.3</string>
