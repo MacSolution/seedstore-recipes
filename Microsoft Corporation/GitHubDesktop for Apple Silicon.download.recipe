@@ -5,13 +5,13 @@
 	<key>Description</key>
 	<string>Downloads the latest version of GitHub Desktop.</string>
 	<key>Identifier</key>
-	<string>com.seedstore.whydah.download.GitHubDesktop</string>
+	<string>com.seedstore.whydah.download.GitHubDesktopSilicon</string>
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
 		<string>https://central.github.com/deployments/desktop/desktop/latest/darwin-arm64</string>
 		<key>NAME</key>
-		<string>GitHub Desktop</string>
+		<string>GitHub Desktop for Apple Silicon</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.2</string>

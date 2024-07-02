@@ -11,7 +11,7 @@
 		<key>DOWNLOAD_URL</key>
 		<string>https://central.github.com/deployments/desktop/desktop/latest/darwin</string>
 		<key>NAME</key>
-		<string>GitHub Desktop</string>
+		<string>GitHub Desktop for Intel</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.2</string>
