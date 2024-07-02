@@ -25,7 +25,7 @@
 			<key>category</key>
 			<string>%MUNKI_CATEGORY%</string>
 			<key>icon_name</key>
-  			<string>AndroidStudio.png</string>
+  			<string>Android Studio.png</string>
 			<key>description</key>
 			<string>Android Studio is the official integrated development environment for Google's Android operating system, built on JetBrains' IntelliJ IDEA software and designed specifically for Android development. It is available for download on Windows, macOS and Linux based operating systems.</string>
 			<key>developer</key>

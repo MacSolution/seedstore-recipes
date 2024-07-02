@@ -25,7 +25,7 @@
 			<key>category</key>
 			<string>%MUNKI_CATEGORY%</string>
 			<key>icon_name</key>
-  			<string>GitHubDesktop.png</string>
+  			<string>GitHub Desktop for Intel.png</string>
 			<key>description</key>
 			<string>Synchronize branches, clone repositories, and more.</string>
 			<key>developer</key>

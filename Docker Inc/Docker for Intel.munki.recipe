@@ -25,7 +25,7 @@
 			<key>category</key>
 			<string>%MUNKI_CATEGORY%</string>
 			<key>icon_name</key>
-  			<string>Docker.png</string>
+  			<string>Docker for Intel.png</string>
 			<key>description</key>
 			<string>Docker is a platform designed to help developers build, share, and run container applications. We handle the tedious setup, so you can focus on the code.</string>
 			<key>developer</key>

@@ -27,7 +27,7 @@
 			<key>category</key>
 			<string>%MUNKI_CATEGORY%</string>
 			<key>icon_name</key>
-  			<string>DBeaver.png</string>
+  			<string>DBeaver for Apple Silicon.png</string>
 			<key>description</key>
 			<string>DBeaver Community is a free cross-platform database tool for developers, database administrators, analysts, and everyone working with data.</string>
 			<key>developer</key>

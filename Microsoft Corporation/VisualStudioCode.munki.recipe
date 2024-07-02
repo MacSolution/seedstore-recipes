@@ -27,7 +27,7 @@
 			<key>category</key>
 			<string>%MUNKI_CATEGORY%</string>
 			<key>icon_name</key>
-  			<string>VisualStudioCode.png</string>
+  			<string>Visual Studio Code.png</string>
 			<key>description</key>
 			<string>Code combines the streamlined UI of a modern editor with rich code assistance and navigation, and an integrated debugging experience – without the need for a full IDE.</string>
 			<key>developer</key>

@@ -27,7 +27,7 @@
 			<key>category</key>
 			<string>%MUNKI_CATEGORY%</string>
 			<key>icon_name</key>
-  			<string>FlipperServer.png</string>
+  			<string>Flipper Server.png</string>
 			<key>description</key>
 			<string>Flipper is a platform for debugging iOS, Android and React Native apps. Visualize, inspect, and control your apps from a simple desktop interface. Use Flipper as is or extend it using the plugin API.</string>
 			<key>developer</key>
