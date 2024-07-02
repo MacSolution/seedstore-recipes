@@ -17,7 +17,7 @@
 		<key>MUNKI_CATEGORY</key>
 		<string>Browsers</string>
 		<key>NAME</key>
-		<string>Chrome</string>
+		<string>Google Chrome</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -33,7 +33,7 @@
 			<key>developer</key>
 			<string>Google LLC</string>
 			<key>display_name</key>
-			<string>Chrome</string>
+			<string>Google Chrome</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
