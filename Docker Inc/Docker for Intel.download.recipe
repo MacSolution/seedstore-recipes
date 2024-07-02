@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Docker</string>
+		<string>Docker for Intel</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>2.3</string>
