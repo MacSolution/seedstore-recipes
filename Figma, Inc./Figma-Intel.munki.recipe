@@ -5,11 +5,11 @@
 	<key>Description</key>
 	<string>Downloads the current release version of Figma and imports into Munki.</string>
 	<key>Identifier</key>
-	<string>com.macsolution.seedstore.munki.Figma</string>
+	<string>com.macsolution.seedstore.munki.Figma-Intel</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Figma</string>
+		<string>Figma for Intel</string>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>%MUNKI_CATEGORY%/%NAME%</string>
 		<key>MUNKI_CATEGORY</key>
@@ -29,7 +29,7 @@
 			<key>description</key>
 			<string>Figma is a collaborative web application for interface design, with additional offline features enabled by desktop applications for macOS and Windows.</string>
 			<key>display_name</key>
-			<string>Figma</string>
+			<string>Figma for Intel</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -39,7 +39,7 @@
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.macsolution.seedstore.download.Figma</string>
+	<string>com.macsolution.seedstore.download.Figma-Intel</string>
 	<key>Process</key>
 	<array>
 		<dict>
