@@ -33,7 +33,7 @@
 			<key>developer</key>
 			<string>Microsoft Corporation</string>
 			<key>display_name</key>
-			<string>Visual Studio Code</string>
+			<string>VS Code</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
