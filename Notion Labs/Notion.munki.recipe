@@ -2,20 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Comment</key>
-	<string>Created with Recipe Robot v2.3.1 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of JumpCloud Password Manager and imports it into Munki.</string>
+	<string>Downloads the latest version of Notion and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.macsolution.seedstore.munki.JumpCloudPasswordManager</string>
+	<string>com.github.root.munki.Notion</string>
 	<key>Input</key>
 	<dict>
+		<key>MUNKI_CATEGORY</key>
+		<string>Productivity</string>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>%MUNKI_CATEGORY%/%NAME%</string>
-		<key>MUNKI_CATEGORY</key>
-		<string>Tools</string>
 		<key>NAME</key>
-		<string>JumpCloud Password Manager</string>
+		<string>Notion</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -24,15 +22,14 @@
 			</array>
 			<key>category</key>
 			<string>%MUNKI_CATEGORY%</string>
-			<key>icon_name</key>
-  			<string>JumpCloud Password Manager.png</string>
 			<key>description</key>
-			<string>JumpCloud's Password Manager safely and effectively manages your passwords, 2FAs, payment cards, and more.
-</string>
+			<string>Extract, convert, create databases from Final Cut Pro marker metadata.</string>
 			<key>developer</key>
-			<string>JUMPCLOUD INC.</string>
+			<string>Notion Labs, Inc</string>
 			<key>display_name</key>
-			<string>JumpCloud Password Manager</string>
+			<string>Notion</string>
+			<key>icon_name</key>
+			<string>Notion.png</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -42,7 +39,7 @@
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.macsolution.seedstore.download.JumpCloudPasswordManager</string>
+	<string>com.github.root.download.Notion</string>
 	<key>Process</key>
 	<array>
 		<dict>

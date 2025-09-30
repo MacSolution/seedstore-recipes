@@ -2,20 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Comment</key>
-	<string>Created with Recipe Robot v2.3.1 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of Notion and imports it into Munki.</string>
+	<string>Downloads the latest version of Cursor and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.macsolution.seedstore.munki.Notion</string>
+	<string>com.github.root.munki.Cursor-Arm</string>
 	<key>Input</key>
 	<dict>
+		<key>MUNKI_CATEGORY</key>
+		<string>Development Tools</string>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>%MUNKI_CATEGORY%/%NAME%</string>
-		<key>MUNKI_CATEGORY</key>
-		<string>Productivity</string>
 		<key>NAME</key>
-		<string>Notion</string>
+		<string>Cursor for Apple Silicon</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -24,14 +22,14 @@
 			</array>
 			<key>category</key>
 			<string>%MUNKI_CATEGORY%</string>
-			<key>icon_name</key>
-  			<string>Notion.png</string>
 			<key>description</key>
-			<string>A new tool that blends your everyday work apps into one. It's the all-in-one workspace for you and your team.</string>
+			<string>Highlight your mouse cursor.</string>
 			<key>developer</key>
-			<string>Notion Labs, Inc</string>
+			<string>Anysphere</string>
 			<key>display_name</key>
-			<string>Notion</string>
+			<string>Cursor for Apple Silicon</string>
+			<key>icon_name</key>
+			<string>Cursor.png</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -41,7 +39,7 @@
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.macsolution.seedstore.download.Notion</string>
+	<string>com.github.root.download.Cursor-Arm</string>
 	<key>Process</key>
 	<array>
 		<dict>
