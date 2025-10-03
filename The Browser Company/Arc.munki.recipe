@@ -13,7 +13,7 @@
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>%MUNKI_CATEGORY%/%NAME%</string>
 		<key>NAME</key>
-		<string>Arc</string>
+		<string>Arc Browser</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -27,7 +27,7 @@
 			<key>developer</key>
 			<string>The Browser Company</string>
 			<key>display_name</key>
-			<string>Arc</string>
+			<string>Arc Browser</string>
 			<key>icon_name</key>
 			<string>Arc.png</string>
 			<key>name</key>
